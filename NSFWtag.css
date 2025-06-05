@@ -1,0 +1,92 @@
+/**
+* @name NSFWtag
+* @author ryan.0324, krystalskullofficial
+* @description A tag for 'NSFW' channels so they are easier to see/notice. Also recolors the small triangle too be red,
+* @version 8.5.5
+* @authorId 929208515883569182
+* @website https://krstlskll69.github.io/
+* @source https://github.com/KrstlSkll69/vc-snippets?tab=readme-ov-file#1st-nsfw-channel-tag-
+*/
+
+/*--- Channel list 'NSFW' Label ---*/
+[class*=linkTop_]:has([class*=iconContainer_] [d^="M18.09 1.63"]) > [class*=children_]::after {
+  content: 'NSFW'; 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+/*--- 'NSFW' Chat Label ---*/
+[class*=iconWrapper_]:has([d^="M18.09 1.63"]) ~ [class*=titleWrapper_] ::after {
+  content: 'NSFW'; 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+
+/*--- 'NSFW' Message bar icon label ---*/
+[class*=autocompleteRowIcon__]:has([d^="M18.09 1.63c.4-.7 1.43-.7"]) ~ [class*=autocompleteRowContentPrimary__] ::after {
+  content: 'NSFW'; 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+
+/*--- Stupid Ahh channel search icon label ---*/
+[class*=searchResultChannelIcon__]:has([d^="M18.09 1.63c.4-.7 1.43-.7"]) ~ [class*=searchResultChannelCategory__]::after {
+  content: 'NSFW'; 
+  background: var(--status-danger-background);
+  color: var(--status-danger-text);
+  font-family: var(--font-code);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  line-height: 17px;
+  margin-left: 4px;
+}
+
+/*--- Channel list Icon Recolor ---*/
+/*--- Chat Icon Recolor ---*/
+/*--- 'NSFW' Message Bar Icon Recolor ---*/
+[class^=icon__] path[d^="M18.09 1.63"] {
+    fill: var(--status-danger-background) !important;
+    border: 1px solid rebeccapurple !important;
+  }
+
+/*--- Stupid Ahh channel search icon ---*/
+[class^=searchResultChannelIcon__] path[d^="M18.09 1.63c.4-.7 1.43-.7" ] {
+  fill: var(--status-danger-background) !important;
+}
+/*--------------*/
+
+/*--- Ping Warning ---*/
+.ping__06d62 path[d^="M18.09 14.63c.4-.7"] {
+  fill: var(--status-danger-background) !important;
+}
+
+/*--------------*/
+[class^=contents__] path[d^=" M-10,10 C-10,10 10,-10 10,-10" ] {
+  stroke: var(--status-danger-background) !important ;
+}
