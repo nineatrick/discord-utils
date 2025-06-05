@@ -1,0 +1,13 @@
+/**
+* @name Bartender
+* @author aushevahmad, ge.b
+* @description Hide Discord's toolbar icons until you need them. 
+* @version 1.0
+* @source https://github.com/AushevAhmad/awesome-css
+*/
+
+
+@import url("https://aushevahmad.github.io/awesome-css/modules/bartender.css");
+:root {
+    --bartender-width: 4ch;  /* Width for displayed icon. Adjust depending on your needs [Default: 4ch] */
+}
