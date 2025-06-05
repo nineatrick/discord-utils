@@ -1,0 +1,24 @@
+/* Declutter Discord's UI */
+
+/* Hide various elements */
+.panelSubtextContainer__37e49, /* Hide status/username viewer near mic button */
+.newMemberBadge_f80704, /* No "New member" badge */
+div[class*="listItem"]:has(div[aria-label="Explore Discoverable Servers"]), /* Hide 'Explore Discoverable Servers' in server page */
+.text_a2f514, /* Remove loading quote */
+.threadSuggestionBar__841c8, /* Hide thread suggestion in reply */
+div.themed_b3f026.item_b3f026.item__133bf:nth-of-type(4), /* No blocked section in friends list */
+.nowPlayingColumn__133bf, /* No "Active now" tab */
+button[aria-label="Open GIF picker"], /* Hide GIF picker button */
+button[aria-label="Open sticker picker"], /* Hide sticker picker button */
+[class^=bar__]:has([class^=voiceChannelsIcon__]), /* Hide "x in vc" scroll indicator */
+[aria-label="Help"], /* Removes "Support" question mark button */
+[aria-label="Start Video Call"], /* remove video call button */
+[aria-label="Show User Profile"], /* Remove Show User Profile button */
+[aria-label="Add Friends to DM"], /* Remove Add Friends to DM button */
+[aria-label="Threads"], /* Remove Threads button in topbar */
+[aria-label="Notification Settings"], /* Remove Notification Settings button in topbar */
+.divider_d2b491.divider_ae36e5, /* Remove dividing line in profile */
+[class^="iconGroup"]:has([class^="hangStatusIcon"]), /* Hide hang statuses */
+[class*=channelAppLauncher_] /* No app launcher */ {
+    display: none !important;
+}
