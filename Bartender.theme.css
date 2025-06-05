@@ -1,6 +1,0 @@
-@import url("https://aushevahmad.github.io/awesome-css/modules/bartenderAnimated.css");
-
-:root {
-    --bartender-width: 34px; /* Adjust this to 34-45px based on themes [Default: 34px] */
-    --animation-size: 21%; /* Adjust the width to show the whole section if necessary [default: 21%] */
-}
