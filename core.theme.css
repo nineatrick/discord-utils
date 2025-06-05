@@ -12,7 +12,6 @@
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/PrivateChannelRecolor.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/RadialStatus.theme.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/RecolorAddFriendsTab.css");
-@import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/Search-As-Button.css"); /*--- https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/fancySearch.css ---*/
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/SettingsIcons.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/StageRecolor.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/SyncedWithGameRecolor.css");
@@ -26,6 +25,7 @@
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/custom-emoji-bar.theme.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/declutter.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/discolored.theme.css");
+@import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/fancySearch.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/hideGlobalDiscovery.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/oneko.theme.css");
 @import url("https://raw.githubusercontent.com/nineatrick/discord-utils/refs/heads/main/vc-membercount.css")
